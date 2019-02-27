@@ -20,7 +20,9 @@
             </router-link>
             
             <v-btn flat class="hidden-sm-and-down" to="/menu">Library</v-btn>
-            <v-btn flat class="hidden-sm-and-down" to="/about">add story</v-btn>
+            <v-flex >
+            <About />
+            </v-flex>
             
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <div v-if="!isAuthenticated" class="hidden-sm-and-down">
@@ -34,7 +36,9 @@
 </template>
 
 <script>
+import About from '@/views/About'
 export default {
+    components:{About},
     name: 'AppNavigation',
     data() {
         return {

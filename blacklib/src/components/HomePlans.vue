@@ -24,7 +24,7 @@
                         </div>
                     </v-card-text>
 
-                    <v-card-actions v-if="['menu'].includes($route.name)">
+                    <v-card-actions >
                         <v-btn outline block color="blue" @click="showRecipes('Harry Potter')">Read</v-btn>
                     </v-card-actions>
                 </v-card>
@@ -50,7 +50,7 @@
                         </div>
                     </v-card-text>
 
-                    <v-card-actions v-if="['menu'].includes($route.name)">
+                    <v-card-actions >
                         <v-btn outline block color="blue" @click="showRecipes('Super-God-Gene')">Read</v-btn>
                     </v-card-actions>
                 </v-card>
@@ -76,7 +76,7 @@
                         </div>
                     </v-card-text>
 
-                    <v-card-actions v-if="['menu'].includes($route.name)">
+                    <v-card-actions >
                         <v-btn outline block color="blue" @click="showRecipes('levl-up')">Read</v-btn>
                     </v-card-actions>
                 </v-card>

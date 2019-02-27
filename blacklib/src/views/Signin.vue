@@ -1,14 +1,20 @@
 <template>
     <v-container fluid>
         <v-layout>
-            <h1>Signin Page</h1>
+            <h1>search</h1>
         </v-layout>
     </v-container>
 </template>
-<script>
+import form from '@/form';
+
+
 export default {
-    name: 'Signin'
+    name: 'sing',
+    components: {
+        form,
+    }
 };
 </script>
+
 <style scoped>
 </style>
