@@ -1,7 +1,7 @@
 <template>
   <v-footer
     height="auto"
-    color="teal darken-2 lighten-1"
+    color="teal darken-2 lighten-1" 
   >
     <v-layout
       justify-center
